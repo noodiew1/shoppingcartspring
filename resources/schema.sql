@@ -1,9 +1,8 @@
 
-CREATE TABLE IF NOT EXISTS cart(
+CREATE TABLE IF NOT EXISTS CART_OBJECT(
   orderId INT, 
   itemId INT, 
   customerId INT, 
   quantity INT
 );
 
-insert into cart values (1, 2, 3, 4);
